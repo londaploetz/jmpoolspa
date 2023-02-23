@@ -1,0 +1,6 @@
+.banner-container{
+    background-image: url("../../assets/pool-bgr.JPG");
+    background-size: cover;
+    width: 180ch;
+    height: 200ch;
+}
