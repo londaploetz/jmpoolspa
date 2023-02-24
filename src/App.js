@@ -4,6 +4,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About"; 
 import Contact from "./components/pages/Contact"; 
 import Gallery from "./components/pages/Gallery";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

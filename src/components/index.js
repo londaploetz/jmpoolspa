@@ -5,3 +5,4 @@ export { default as Gallery } from './pages/Gallery';
 export { default as Banner } from './banner/Banner'; 
 export { default as Footer } from './footer/Footer';
 export {default as Navbar} from './navbar/Navbar'; 
+export {default as Brand} from './brand/Brand'; 

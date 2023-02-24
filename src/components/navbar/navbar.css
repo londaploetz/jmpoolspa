@@ -1,0 +1,8 @@
+.navbar-container{
+    background-color: rgb(32, 24, 24);
+    color: aliceblue;
+    top:3ch; 
+    padding: 3ch;
+    width: 100%;
+    position: relative;
+}

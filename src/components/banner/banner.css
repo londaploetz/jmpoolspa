@@ -1,6 +1,32 @@
-.banner-container{
-    background-image: url("../../assets/pool-bgr.JPG");
-    background-size: cover;
-    width: 180ch;
-    height: 200ch;
+
+
+.banner {
+    background: #FFFFFF;
+    box-shadow: inset 2px 4px 16px 1px rgba(0, 0, 0, 0.21);
+    top:5ch; 
+    position: relative;
+    height:33ch;
+    width: 100%;
+}
+
+.logo-img {
+    position: relative;
+    width: 60ch;
+    height: 36ch;
+    padding: 3ch;
+
+}
+.justify-content-md-left{
+justify-content:center ;
+}
+
+.tagline{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 35px;
+    padding-top: 1ch;
+    color: #000000;
+    
 }
