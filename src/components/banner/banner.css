@@ -1,32 +1,48 @@
 
 
-.banner {
-    background: #FFFFFF;
-    box-shadow: inset 2px 4px 16px 1px rgba(0, 0, 0, 0.21);
-    top:5ch; 
-    position: relative;
-    height:33ch;
-    width: 100%;
-}
+
 
 .logo-img {
     position: relative;
-    width: 60ch;
-    height: 36ch;
-    padding: 3ch;
+    width: 90%;
+    height: 30ch;
+    padding: 2ch;
 
 }
-.justify-content-md-left{
-justify-content:center ;
+.justify-content-sm-center{
+    position: relative;
+    background: #ffffff;
+    box-shadow: inset 2px 4px 16px 1px rgba(0, 0, 0, 0.411);
+    top:5ch; 
+    padding-right: 2ch;
+
 }
 
 .tagline{
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-style: normal;
     font-weight: 300;
-    font-size: 27px;
-    line-height: 35px;
-    padding-top: 1ch;
+    font-size: 29px;
+    line-height: 38px;
+    padding-top: 3ch;
+    padding-bottom: 4ch;
+    padding-right: 4ch;
     color: #000000;
     
+}
+
+.banner-container{
+padding: 1ch !important;
+margin: 0ch !important;
+}
+
+.poolandspa-tag{
+    font-family: Arial, Helvetica, sans-serif;  
+    position: relative;
+    font-style: bold;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 40px;
+    padding-top: 2.5ch;
+    color: #000000;
 }

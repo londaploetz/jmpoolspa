@@ -4,7 +4,7 @@ import "./pages.css"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Navbar from "../navbar/Navbar";
+// import Navbar from "../navbar/Navbar";
 import Brand from "../brand/Brand";
 import Footer from "../footer/Footer";
 
@@ -14,7 +14,7 @@ function Home() {
     <div className="home-background" >
 
     <Banner/>
-    <Navbar />
+    {/* <Navbar /> */}
     <Brand />
     <Footer />
     </div>
