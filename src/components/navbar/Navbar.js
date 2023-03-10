@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => (
+
   <div className='navbar-container'>
     <Container>
       <Row className='buttons-nav'>
@@ -45,5 +46,6 @@ const Navbar = () => (
       </Row>
     </Container>
   </div>
+
 );
 export default Navbar;

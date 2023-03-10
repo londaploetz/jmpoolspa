@@ -1,27 +1,35 @@
-.navbar-container{
+.navbar-container {
     display: flex;
     flex-direction: column;
     background: #1a2f49;
     color: aliceblue;
-    top:0ch; 
+    box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.31);
+    top: 0ch;
     padding: 4ch;
     width: 100%;
     position: relative;
 
 }
-.buttons-nav{
-font-size: 22px;
+
+
+
+.buttons-nav {
+    font-size: 22px;
 }
 
-.nav-btns{
-text-align: center;
+
+.nav-btns {
+    text-align: center;
 
 }
 
-.link-btn{
-padding: 1ch;
-
+.link-btn {
+    padding: 1ch;
     color: rgb(255, 255, 255);
     text-decoration: none;
+     font-family: 'Red Hat Display', sans-serif;
 
+}
+.link-btn:hover{
+    color: rgba(255, 255, 255, 0.432) !important;
 }

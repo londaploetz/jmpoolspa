@@ -1,23 +1,32 @@
 .brand {
     position: relative;
-    display:grid;
-   
-  
+    display: grid;
     width: 100%;
     height: 90ch;
-    top: 46ch
+    top: 31ch; 
+  
 }
 
 .justify-content-sm-center-brand{
     background: #1a2f49;
+    border-top: 2px solid #FFFFFF;
     box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.31);
     padding: 4ch;
-    padding-bottom: 10ch;
+    
+}
+
+.justify-content-sm-center-footer{
+    background: #1a2f49;
+    box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.31);
+    border-top: 2px solid #FFFFFF;
+    padding: 2ch;
+    
+    
 }
 .brand-service {
     position: relative;
     top: 0ch;
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family: 'Red Hat Display', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -72,5 +81,14 @@
     }
 
    
+
+}
+
+.footer{
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 10ch;
+    top: -2ch; 
 
 }

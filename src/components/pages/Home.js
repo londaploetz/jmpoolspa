@@ -14,9 +14,8 @@ function Home() {
     <div className="home-background" >
 
     <Banner/>
-    {/* <Navbar /> */}
     <Brand />
-    <Footer />
+    
     </div>
   );
 }

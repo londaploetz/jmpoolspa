@@ -25,7 +25,7 @@ const Banner = () => {
         </Row>
         
       </Container>
-      <Navbar /> 
+    
     </div>
   );
 }

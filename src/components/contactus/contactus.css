@@ -1,0 +1,65 @@
+.contactus {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    width:100%; 
+    height: 97ch; 
+    align-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.contact-headder{
+    padding: 2ch;
+    text-align: center;
+    background: #1a2f49;
+    color: aliceblue;
+    box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.31);
+    border-top: 2px solid #FFFFFF;
+    font-size: 32px;
+   
+}
+.map{
+  position: relative;
+    margin-top: 9ch;
+    width: 95%;
+
+    height: fit-content;
+    border: 3px solid #1a2f49;;
+
+}
+
+
+label {
+  font-family: 'Red Hat Display', sans-serif;
+    margin-top: 3ch;
+    align-content: center;
+    text-align: left;
+    font-size: 20px;
+}
+form{
+  font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+   padding-left: 15ch;
+  }
+
+  input{
+    width: 50%;
+    height: 5ch;
+   
+  }
+
+  textarea{
+    width: 80%;
+    height: 27ch;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  input[type=submit]{
+    margin-top: 2%;
+  }
+
+  .send-btn{
+    
+    color: rgb(255, 255, 255);
+    background-color: #1a2f49;
+    font-family: 'Red Hat Display', sans-serif;
+  }

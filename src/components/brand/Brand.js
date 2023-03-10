@@ -29,6 +29,23 @@ We are set up to install and provide customer support and make sure your propert
         </Row>
         
       </Container>
+      <Container fluid className='footer'>
+        <Row  className="justify-content-sm-center-footer">
+        <Col lg={6} sm={12} className='brand-service'>Lets Connect<br /> 
+          phnone number <br/>
+          Lets Connect<br /> 
+          phnone number <br/>
+          </Col>
+          <Col lg={6} sm={12} className='brand-service'>Lets Connect<br /> 
+          phnone number <br/>
+          Lets Connect<br /> 
+          phnone number <br/>
+           
+
+</Col>
+        </Row>
+        
+      </Container>
     </div>
 );
 export default Brand;
