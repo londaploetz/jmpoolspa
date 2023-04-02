@@ -8,7 +8,7 @@ import pools from "../../pool.json"
 
 function Gallery() {
   return (
-    <div>
+    <div className="gallery">
       <Container className="gallery-container">
         <Row>
           {pools.data.map((pool) => (

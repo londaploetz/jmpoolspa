@@ -1,5 +1,5 @@
 .contactus {
-    background-color: rgb(255, 255, 255);
+    background-color: #e4e4e4;
     background-size: cover;
     width:100%; 
     height: 97ch; 
@@ -11,16 +11,14 @@
     text-align: center;
     background: #1a2f49;
     color: aliceblue;
-    box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.31);
+    box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.144);
     border-top: 2px solid #FFFFFF;
     font-size: 32px;
    
 }
 .map{
   position: relative;
-    margin-top: 9ch;
-    width: 95%;
-
+    width: 80%;
     height: fit-content;
     border: 3px solid #1a2f49;;
 
@@ -44,6 +42,8 @@ form{
   input{
     width: 50%;
     height: 5ch;
+    background-color: #f8f8f8;
+    border: none;
    
   }
 
@@ -51,6 +51,8 @@ form{
     width: 80%;
     height: 27ch;
     font-family: 'Red Hat Display', sans-serif;
+    background-color: #f8f8f8;
+    border: none;
   }
 
   input[type=submit]{
@@ -63,3 +65,21 @@ form{
     background-color: #1a2f49;
     font-family: 'Red Hat Display', sans-serif;
   }
+
+
+  /* .mapboxgl-map{
+    z-index: 0;
+    background-color: rgba(0, 255, 255, 0);
+  } */
+
+  /* .mapboxgl-canvas{
+    z-index: -1;
+    background-color: aquamarine;
+  } */
+
+  .map-container {
+    top: 10ch; 
+  height: 500px;
+  width: 90%;
+  border: 3px solid #1a2f49;;
+}

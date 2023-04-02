@@ -3,7 +3,8 @@
     flex-direction: column;
     background: #1a2f49;
     color: aliceblue;
-    box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.31);
+
+    box-shadow: inset 2px 2px 11px rgba(255, 255, 255, 0.178);
     top: 0ch;
     padding: 4ch;
     width: 100%;
